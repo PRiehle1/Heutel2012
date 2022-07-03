@@ -7,7 +7,7 @@ Link: https://www.sciencedirect.com/science/article/abs/pii/S1094202511000238?vi
 
 To run the code: 
 
-I: Ad dynare 4.6.4 to your Matlab path 
+I: Ad dynare 4.6.4 to your Matlab path  \\
 II: execute dynare heutel_2012
 
 
