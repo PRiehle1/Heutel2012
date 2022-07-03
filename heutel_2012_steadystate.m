@@ -1,6 +1,5 @@
 function [ys,params,check] = heutel_2012_steadystate(ys,exo,M_,options_)
-% function [ys,params,check] = Basu_Bundick_2017_steadystate(ys,exo,M_,options_)
-% computes the steady state for the NK_baseline.mod and uses a numerical
+% computes the steady state for the heutel_2012.mod and uses a numerical
 % solver to do so
 % Inputs: 
 %   - ys        [vector] vector of initial values for the steady state of

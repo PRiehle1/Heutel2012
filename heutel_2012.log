@@ -40,81 +40,66 @@ omega  		 -0.148193
 
                                          Norm of      First-order   Trust-region
  Iteration  Func-count     f(x)          step         optimality    radius
-     0          3     7.21221e-09                       8.5e-08               1
-     1          6     4.62874e-14      0.0849149       2.13e-10               1
-     2          9      2.8297e-23    0.000215144       3.13e-15               1
-     3         12     8.69678e-34    9.09687e-09       1.74e-20               1
+     0          3     1.62415e-06                      1.31e-06               1
+     1          6      6.6068e-08              1       2.44e-07               1
+     2          9     7.68374e-09       0.432096        2.5e-07             2.5
+     3         12     1.06065e-09      0.0592234       3.88e-08             2.5
+     4         15     8.51737e-11      0.0271516       5.91e-09             2.5
+     5         18     8.27518e-13      0.0144301       4.65e-10             2.5
+     6         21     8.47663e-17      0.0017325       4.47e-12             2.5
+     7         24     8.18109e-25    1.76805e-05       4.36e-16             2.5
 
-<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">Equation solved</a>.
+<a href = "matlab: helpview('optim','eqn_inaccuracy','CSHelpWindow');">Equation solved, inaccuracy possible</a>.
 
-fsolve completed because the vector of function values is near zero
-as measured by the value of the <a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>, and
-the <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">problem appears regular</a> as measured by the gradient.
+The vector of function values is near zero, as measured by the value
+of the <a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>. However, the <a href = "matlab: helpview('optim','last_step_ineffective','CSHelpWindow');">last step was ineffective</a>.
 
-<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.737551e-20','1.000000e-19','8.696777e-34','3.162278e-10'},true,true);;">stopping criteria details</a>>
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit3basic'},{'optim:fsolve:Exit3detailed','fsolve','4.238315e-17','2.220446e-16','8.181091e-25','3.162278e-10'},true,true);;">stopping criteria details</a>>
 
 STEADY-STATE RESULTS:
 
-c      		 2.60536
-y      		 3.30228
-k      		 27.8761
-tau    		 0.000537519
-z      		 1.53811e-05
-mu     		 0.0348866
-e      		 2.21653
-x      		 4221.95
+c      		 2.71834
+y      		 3.44547
+k      		 29.0843
+tau    		 0.000583451
+z      		 1.7869e-05
+mu     		 0.0362517
+e      		 2.27976
+x      		 4342.39
 r      		 0.0426356
-a      		 1.002
-lambda 		 -2.91742e-13
-zeta   		 7.91878e-05
-omega  		 -0.147283
+a      		 1.03
+lambda 		 -7.49029e-09
+zeta   		 7.8958e-05
+omega  		 -0.135292
 
                                          Norm of      First-order   Trust-region
  Iteration  Func-count     f(x)          step         optimality    radius
-     0          3     7.21221e-09                       8.5e-08               1
-     1          6     4.62874e-14      0.0849149       2.13e-10               1
-     2          9      2.8297e-23    0.000215144       3.13e-15               1
-     3         12     8.69678e-34    9.09687e-09       1.74e-20               1
+     0          3     1.62415e-06                      1.31e-06               1
+     1          6      6.6068e-08              1       2.44e-07               1
+     2          9     7.68374e-09       0.432096        2.5e-07             2.5
+     3         12     1.06065e-09      0.0592234       3.88e-08             2.5
+     4         15     8.51737e-11      0.0271516       5.91e-09             2.5
+     5         18     8.27518e-13      0.0144301       4.65e-10             2.5
+     6         21     8.47663e-17      0.0017325       4.47e-12             2.5
+     7         24     8.18109e-25    1.76805e-05       4.36e-16             2.5
 
-<a href = "matlab: helpview('optim','eqn_solved','CSHelpWindow');">Equation solved</a>.
+<a href = "matlab: helpview('optim','eqn_inaccuracy','CSHelpWindow');">Equation solved, inaccuracy possible</a>.
 
-fsolve completed because the vector of function values is near zero
-as measured by the value of the <a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>, and
-the <a href = "matlab: helpview('optim','appears_regular','CSHelpWindow');">problem appears regular</a> as measured by the gradient.
+The vector of function values is near zero, as measured by the value
+of the <a href = "matlab: helpview('optim','fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>. However, the <a href = "matlab: helpview('optim','last_step_ineffective','CSHelpWindow');">last step was ineffective</a>.
 
-<<a href = "matlab: createExitMsg({'optim:fsolve:Exit1basic','fsolve'},{'optim:fsolve:Exit1detailed','1.737551e-20','1.000000e-19','8.696777e-34','3.162278e-10'},true,true);;">stopping criteria details</a>>
+<<a href = "matlab: createExitMsg({'optim:fsolve:Exit3basic'},{'optim:fsolve:Exit3detailed','fsolve','4.238315e-17','2.220446e-16','8.181091e-25','3.162278e-10'},true,true);;">stopping criteria details</a>>
 
 --------------------------------------------------------
 MODEL SIMULATION:
 
-Iter: 1,	 err. = 8.59407,	 time = 0.114
-Iter: 2,	 err. = 3.3e-06,	 time = 0.015
+Iter: 1,	 err. = 128.782,	 time = 0.067
+Iter: 2,	 err. = 0.00059379,	 time = 0
+Iter: 3,	 err. = 1.33818e-07,	 time = 0.016
 
-Total time of simulation: 0.145.
+Total time of simulation: 0.094.
 --------------------------------------------------------
 
 Perfect foresight solution found.
 
-{Error using checkArgsForHandleToPrint
-Handle input argument contains nonhandle values.
-
-Error in checkArgsForHandleToPrint
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print>LocalCreatePrintJob', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\graphics\printing\print.m', 101)" style="font-weight:bold">print>LocalCreatePrintJob</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\graphics\printing\print.m',101,0)">line 101</a>)
-handles = checkArgsForHandleToPrint(0, varargin{:});
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\graphics\printing\print.m', 38)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\graphics\printing\print.m',38,0)">line 38</a>)
-[pj, inputargs] = LocalCreatePrintJob(varargin{:});
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dyn_saveas', 'C:\dynare\4.6.4\matlab\dyn_saveas.m', 42)" style="font-weight:bold">dyn_saveas</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dyn_saveas.m',42,0)">line 42</a>)
-    print(h,'-depsc2',[fname,'.eps'])
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rplot', 'C:\dynare\4.6.4\matlab\rplot.m', 89)" style="font-weight:bold">rplot</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\rplot.m',89,0)">line 89</a>)
-    dyn_saveas(hh,[M_.fname, filesep, 'graphs', filesep, 'SimulatedTrajectory_' s1{1}],options_.nodisplay,options_.graph_format)
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('heutel_2012.driver', 'C:\Users\phill\OneDrive - Christian-Albrechts-Universität zu Kiel\DATA_Ubuntu_25_11\CAU Kiel\Master Thesis\Code\RBC\Heutel_2012\+heutel_2012\driver.m', 285)" style="font-weight:bold">heutel_2012.driver</a> (<a href="matlab: opentoline('C:\Users\phill\OneDrive - Christian-Albrechts-Universität zu Kiel\DATA_Ubuntu_25_11\CAU Kiel\Master Thesis\Code\RBC\Heutel_2012\+heutel_2012\driver.m',285,0)">line 285</a>)
-rplot(var_list_);
-
-Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.4\matlab\dynare.m',293,0)">line 293</a>)
-evalin('base',[fname '.driver']) ;
-} 
+Total computing time : 0h00m03s

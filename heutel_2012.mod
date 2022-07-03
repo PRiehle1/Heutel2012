@@ -37,56 +37,22 @@
 % ==============================================================================
 % I. Permanent shock: TFP increases permanently by 3%
 % ==============================================================================
-% initval;
-% eps = 0;
-% end;
-% steady;
-% 
-% endval;
-% eps = (1-RHO)*log(1.03);
-% end;
-% steady;
-% 
-% % % make sure everything is set up correctly!
-% % perfect_foresight_setup(periods = 8);
-% % oo_.exo_simul
-% % oo_.endo_simul
-% 
-% perfect_foresight_setup(periods = 100);
-% perfect_foresight_solver;
-% 
-% rplot x;
-% rplot y c e;
-% rplot k;
-% rplot tau;
-% rplot a;
-
-% ==============================================================================
-% II. Pre-announced permanent shock: TFP increases permanently by 3%
-% ==============================================================================
-
 initval;
 eps = 0;
 end;
 steady;
 
 endval;
-eps = (1-RHO)*log(1.002);
+eps = (1-RHO)*log(1.03);
 end;
 steady;
-
-shocks;
-var eps;
-periods 1:5;
-values 0;
-end;
 
 % % make sure everything is set up correctly!
 % perfect_foresight_setup(periods = 8);
 % oo_.exo_simul
 % oo_.endo_simul
 
-perfect_foresight_setup(periods = 360);
+perfect_foresight_setup(periods = 100);
 perfect_foresight_solver;
 
 rplot x;
@@ -94,6 +60,40 @@ rplot y c e;
 rplot k;
 rplot tau;
 rplot a;
+
+% ==============================================================================
+% II. Pre-announced permanent shock: TFP increases permanently by 3%
+% ==============================================================================
+
+% initval;
+% eps = 0;
+% end;
+% steady;
+% 
+% endval;
+% eps = (1-RHO)*log(1.002);
+% end;
+% steady;
+% 
+% shocks;
+% var eps;
+% periods 1:5;
+% values 0;
+% end;
+% 
+% % % make sure everything is set up correctly!
+% % perfect_foresight_setup(periods = 8);
+% % oo_.exo_simul
+% % oo_.endo_simul
+% 
+% perfect_foresight_setup(periods = 360);
+% perfect_foresight_solver;
+% 
+% rplot x;
+% rplot y c e;
+% rplot k;
+% rplot tau;
+% rplot a;
 
 
 % ==============================================================================
